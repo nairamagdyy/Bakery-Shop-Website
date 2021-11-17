@@ -1,0 +1,178 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header img {
+    height: 48px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.header ul {
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.header li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 16px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: black;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    margin-top: -38px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 58px;
+    color: white;
+}
+
+.container a {
+    display: inline-block;
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.form {
+    width: 60%;
+    float: left;
+}
+
+.form button {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 6px;
+    border-color: #66b4ce;
+    background-color: #66b4ce;
+}
+
+.p-contact {
+    width: 30%;
+    float: left;
+    color: #686868;
+}
+
+.p-contact h2 {
+    color: black;
+}
+
+.p-contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.p-contact li {
+    padding-bottom: 16px;
+}
+
+.p-contact img {
+    width: 22px;
+    padding-right: 16px;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.about {
+    width: 90%;
+    margin: auto;
+    background-color: #403d38;
+    color: grey;
+    font-family: cursive;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 18px;
+}
+
+.sub-about {
+    width: 20%;
+    padding-left: 2%;
+    float: left;
+}
+
+.sub-about ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-about li {
+    margin-top: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px #363636 solid;
+}
+
+.sub-about span {
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.sub-about h3 {
+    color: white;
+}
+
+.bg {
+    background-image: url(../images/contact-details-map.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer h5 {
+    color: grey;
+}

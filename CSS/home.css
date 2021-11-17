@@ -1,0 +1,243 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya";
+}
+
+.container {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    width: 90%;
+    position: fixed;
+}
+
+.header img {
+    height: 48px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 16px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: white;
+}
+
+.clr {
+    clear: both;
+}
+
+.welcome {
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.scrolling {
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.who-we-are {
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    font-family: cursive;
+}
+
+.who-we-are .for-img {
+    width: 40%;
+    margin: auto;
+    float: left;
+}
+
+.p-who {
+    width: 40%;
+    margin: 16px;
+    font-size: 19px;
+    color: #9da1a5;
+    float: right;
+}
+
+.p-who h2 {
+    color: black;
+}
+
+.p-who ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.p-who img {
+    width: 4.5%;
+    margin-right: 10px;
+}
+
+.contain {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: cursive;
+    background-color: #f8f8f8;
+}
+
+.p-contain {
+    width: 40%;
+    color: #686868;
+    float: left;
+    font-size: 17px;
+}
+
+.location .for-img {
+    width: 40%;
+    margin: auto;
+    float: right;
+}
+
+.p-location h2 {
+    color: black;
+}
+
+.baking {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-family: cursive;
+    color: #686868;
+}
+
+.baking h2, .baking h3 {
+    color: black;
+}
+
+.our-baking {
+    width: 30%;
+    float: left;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.our-baking img {
+    width: 100%;
+}
+
+.p-contact h2 {
+    color: black;
+}
+
+.p-contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.p-contact li {
+    padding-bottom: 16px;
+}
+
+.p-contact img {
+    width: 5%;
+    padding-right: 16px;
+}
+
+.frame {
+    width: 40%;
+    float: right;
+    vertical-align: middle;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.about {
+    width: 90%;
+    margin: auto;
+    background-color: #403d38;
+    color: grey;
+    font-family: cursive;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 18px;
+}
+
+.sub-about {
+    width: 20%;
+    padding-left: 2%;
+    float: left;
+}
+
+.sub-about ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-about li {
+    margin-top: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px #363636 solid;
+}
+
+.sub-about span {
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.sub-about h3 {
+    color: white;
+}
+
+.bg {
+    background-image: url(../images/contact-details-map.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    width: 100%;
+    background-color: #353330;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer h5 {
+    color: grey;
+}
